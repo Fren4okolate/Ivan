@@ -1,3 +1,11 @@
 .left_site_container {
-    margin: 467px, 322px;
+  /* Logo */
+
+position: absolute;
+left: -0.97%;
+right: 68.54%;
+top: -0.53%;
+bottom: 96.5%;
+
+
 }

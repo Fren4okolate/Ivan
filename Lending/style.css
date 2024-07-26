@@ -1,11 +1,24 @@
-.left_site_container {
-  /* Logo */
+.header_logo {
+
+/* DUNDER MIFFLIN */
 
 position: absolute;
-left: -0.97%;
-right: 68.54%;
-top: -0.53%;
-bottom: 96.5%;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 16%;
+
+font-family: 'Impact';
+font-style: normal;
+font-weight: 900;
+font-size: 31.5789px;
+line-height: 28px;
+/* or 88% */
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
 
 
 }

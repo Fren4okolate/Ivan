@@ -1,23 +1,39 @@
+.header_line {
+    /* Header color */
+
+    width: 600px;
+    height: 130px;
+
+    /* Brand color */
+    background: #1B54DD;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
 .header_logo {
 
-/* DUNDER MIFFLIN */
+    /* DUNDER MIFFLIN */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 16%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 16%;
 
-font-family: 'Impact';
-font-style: normal;
-font-weight: 900;
-font-size: 31.5789px;
-line-height: 28px;
-/* or 88% */
-text-align: center;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31.5789px;
+    line-height: 28px;
+    /* or 88% */
+    text-align: center;
 
-/* White */
-color: #FFFFFF;
+    /* White */
+    color: #FFFFFF;
 
 
 

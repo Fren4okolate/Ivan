@@ -1,14 +1,21 @@
 .header {
     margin: 0 auto;
     padding: 0;
-    background-color: #1B54DD;
+  
+    
 }
 
 .container{
-    width: auto;
-    margin: 0 auto;
-    background-color: #1B54DD;
-    ;
+    width: 600px;
+    height: 130px;
+    
+    /* Brand color */
+    background: #1B54DD;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .nav {

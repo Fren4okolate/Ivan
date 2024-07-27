@@ -1,43 +1,39 @@
-.header {
-
-}
+.header {}
 
 .container {
-    
+    /* Header color */
+    position: absolute;
+    height: 130px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(5px);
+    /* Brand color */
+    background: #1B54DD;
 }
 
 .nav {
-    /* Header color */
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 66px;
+    left: calc(50% - 100px/2);
+    top: 32px;
+}
 
-    width: 600px;
-    height: 130px;
-
-    /* Brand color */
-    background: #1B54DD;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.logo {
+    margin: auto;
+    width: 100%;
 }
 
 .hidelogo {
     /* DUNDER MIFFLIN */
-
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 16%;
-
+    margin: auto;
     font-family: 'Impact';
     font-style: normal;
-    font-weight: 900;
     font-size: 31.5789px;
     line-height: 28px;
-    /* or 88% */
-    text-align: center;
-
+    letter-spacing: 1.64474px;
     /* White */
     color: #FFFFFF;
 
@@ -45,26 +41,15 @@
 }
 
 .botlogo {
-    /* Paper Company */
-
-    position: absolute;
-    left: 0.66%;
-    right: 1.32%;
-    top: 86%;
-    bottom: 0%;
-
+    margin: auto;
+    color: #FFFFFF;
     font-family: 'Futura';
     font-style: normal;
-    font-weight: 400;
     font-size: 9.21053px;
     line-height: 9px;
     /* identical to box height, or 100% */
-    text-align: center;
     letter-spacing: 1.64474px;
     text-transform: uppercase;
-
     /* White */
     color: #FFFFFF;
-
-
 }

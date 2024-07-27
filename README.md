@@ -7,3 +7,4 @@
 
 1. Необходимо разработать веб интерфейс лендинга.
 2. Развернуть полность веб интерфейс через Docker
+https://raw.githack.com/Fren4okolate/Ivan/fed04191a6aae6ad898f3fa47d3b508de6411619/Lending/index.html

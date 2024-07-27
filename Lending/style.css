@@ -3,12 +3,10 @@
     padding: 0;
 }
 
-.container {
+.container{
     width: auto;
     margin: 0 auto;
-
-    width: auto;
-    background-color: #1B54DD / cover;
+    background-color: #1B54DD;
     ;
 }
 

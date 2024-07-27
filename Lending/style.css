@@ -2,11 +2,24 @@
     margin: 0 auto;
     padding: 0;
 }
-.container{
-width: auto ;
-background-color: #1B54DD;
-;
+
+.container {
+    width: auto;
+    margin: 0 auto;
+
+    width: auto;
+    background-color: #1B54DD / cover;
+    ;
 }
+
 .nav {
     text-transform: uppercase;
+
+    position: absolute;
+    width: 100px;
+    height: 66px;
+    left: calc(50% - 100px/2);
+    top: 32px;
+
+
 }
